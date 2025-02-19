@@ -1,6 +1,6 @@
 # Docker Image Optimization
 
-Docker file that you have written for application in your for your organization and you require python runtime to execute this application but if you look at the docker image that you have created it has 100 other thing it has a ubuntu base image will come with a lot of ubuntu system dependencies, apt packages and apt repositories it has a lot of overload on your docker image.
+Docker file that you have written for application in your organization and you require python runtime to execute this application but if you look at the docker image that you have created it has 100 other thing it has a ubuntu base image will come with a lot of ubuntu system dependencies, apt packages and apt repositories it has a lot of overload on your docker image.
 
 End of the day you just want to run this calculator application and that calculator application only requires python runtime not even the applications that you have installed. As part of the stages these are only required to build your application. So these are two different stages, running your application is required to build your application. Then docker introduced a concept called `Multistaged build`
 
